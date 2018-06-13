@@ -7,7 +7,7 @@ import {Component} from'@angular/core';
 })
 export class BodyComponent{
 
-  mostrar:true;
+  mostrar:boolean = true;
   frase:any = {
     mensaje:'Experto en versos no escritos',
     autor:'Raul'
